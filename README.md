@@ -8,7 +8,7 @@
 
 ## Background
 <p align="center">
-<img src="https://github.com/Bayunova28/FitGuru_Mobile_Application/blob/master/fitguru-cover.png" height="800" width="800">
+<img src="https://github.com/Bayunova28/FitGuru_Mobile_Application/blob/master/fitguru-cover.png" height="750" width="700">
 <p>
   
 <p align="justify">FitGuru mobile application is a mobile application that brings new innovations in the world of fitness by bringing features that provide many benefits 
@@ -19,7 +19,7 @@ health benefits to users and ready to be a pioneer in the advancement of the hea
 
 ## Requirement
 ### Database
-<img src="https://github.com/Bayunova28/FitGuru_Mobile_Application/blob/master/erd-database.png" height="500" width="1000">
+<img src="https://github.com/Bayunova28/FitGuru_Mobile_Application/blob/master/erd-database.png" height="500" width="900">
   
 ```mysql
 -- create database FitGuru
