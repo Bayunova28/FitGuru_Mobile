@@ -19,7 +19,7 @@ health benefits to users and ready to be a pioneer in the advancement of the hea
 
 ## Requirement
 ### Database
-<img src="https://github.com/Bayunova28/FitGuru_Mobile_Application/blob/master/erd-database.png" height="450" width="900">
+<img src="https://github.com/Bayunova28/FitGuru_Mobile_Application/blob/master/erd-database.png" height="400" width="900">
   
 ```mysql
 -- create database FitGuru
