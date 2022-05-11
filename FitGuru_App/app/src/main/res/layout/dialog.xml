@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Choose Action"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHapus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/radius_button"
+            />
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:fontFamily="@font/poppinsbold"
+            android:background="@drawable/radius_button_update"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Edit Food" />
+    </LinearLayout>
+</LinearLayout>

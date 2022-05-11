@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RatingFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate Us"
+            android:textColor="@color/FitGuru"
+            android:textAlignment="center"
+            android:textSize="36dp"
+            android:fontFamily="@font/poppinsbold"
+            />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="0"
+            android:stepSize="1"
+            android:isIndicator="false"
+            android:progressTint="#FFFFC127"
+            android:backgroundTint="#FFFFFF"
+            android:secondaryProgressTint="#FFFFC127"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtRate1"
+            android:text="-"
+            android:fontFamily="@font/poppinsbold"
+            android:textAlignment="center"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtRate2"
+            android:text=""
+            android:fontFamily="@font/poppinsmedium"
+            android:textAlignment="center"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtRate3"
+            android:layout_marginTop="50dp"
+            android:text=""
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="#000000"
+            android:textSize="14dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtComment"
+            android:hint="Your Comment..."
+            android:visibility="gone"
+            android:fontFamily="@font/poppinsmedium"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSend"
+            android:text="Send"
+            android:layout_gravity="center"
+            android:background="@drawable/radius_button_send"
+            android:textColor="@color/FitGuru"
+            android:fontFamily="@font/poppinsbold"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

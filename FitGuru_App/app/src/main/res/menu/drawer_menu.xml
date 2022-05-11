@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="FitHome"/>
+        <item
+            android:id="@+id/nav_workout"
+            android:icon="@drawable/workout_icon"
+            android:title="FitWorkout" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/food_icon"
+            android:title="FitFood" />
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/product_icon"
+            android:title="FitProduct" />
+
+    </group>
+    <item android:title="Profile">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile_icon"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@drawable/ic_website"
+                android:title="Visit Website" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rating_icon"
+                android:title="Rate Us" />
+
+            </group>
+        </menu>
+    </item>
+</menu>

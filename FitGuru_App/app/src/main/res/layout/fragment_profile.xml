@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                app:srcCompat="@drawable/ic_user" />
+
+            <TextView
+                android:id="@+id/txtNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Profile"
+                android:textAlignment="center"
+                android:textColor="@color/FitGuru"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/radius"
+                android:padding="30dp">
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:visibility="gone"
+                    android:enabled="false"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Username"
+                        android:layout_weight="5"
+                        android:textStyle="bold"
+                        android:textColor="#EAEAEA"
+                        android:fontFamily="@font/poppinsmedium"/>
+
+                    <EditText
+                        android:id="@+id/edtUsername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:backgroundTint="#EAEAEA"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:inputType="textPersonName"
+                        android:textColor="#EAEAEA" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:textColor="#FFFFFF"
+                        android:text="Full Name"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppinsmedium"/>
+
+                    <EditText
+                        android:id="@+id/edtFullname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+                        android:backgroundTint="#FFFFFF"
+                        android:layout_weight="5"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:fontFamily="@font/poppinsmedium"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Password"
+                        android:fontFamily="@font/poppinsmedium"/>
+
+                    <EditText
+                        android:id="@+id/edtPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="#FFFFFF"
+                        android:ems="10"
+                        android:textColor="#FFFFFF"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:inputType="textPassword" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:text="Email"
+                        android:fontFamily="@font/poppinsmedium"/>
+
+                    <EditText
+                        android:id="@+id/edtEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:textColor="#FFFFFF"
+                        android:backgroundTint="#FFFFFF"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:fontFamily="@font/poppinsmedium"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:text="Phone Number"
+                        android:fontFamily="@font/poppinsmedium"/>
+
+                    <EditText
+                        android:id="@+id/edtPhone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:textColor="#FFFFFF"
+                        android:backgroundTint="#FFFFFF"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:fontFamily="@font/poppinsmedium"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:text="Address"
+                        android:fontFamily="@font/poppinsmedium"/>
+
+                    <EditText
+                        android:id="@+id/edtAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:textColor="#FFFFFF"
+                        android:backgroundTint="#FFFFFF"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:fontFamily="@font/poppinsmedium"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:text="Weight"
+                        android:fontFamily="@font/poppinsmedium"/>
+
+                    <EditText
+                        android:id="@+id/edtWeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:textColor="#FFFFFF"
+                        android:backgroundTint="#FFFFFF"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:fontFamily="@font/poppinsmedium"/>
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/radius_button_update"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="Update"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnDelete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/radius_button"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="Delete Account"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </ScrollView>
+                </LinearLayout>
+</RelativeLayout>

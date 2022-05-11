@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textCoba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="#FB8C1A"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Set Up Your Schedule"
+                android:textColor="@color/FitGuru"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_calen" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="News"
+                android:textSize="15dp"
+                android:textColor="@color/FitGuru"
+                android:fontFamily="@font/poppinsmedium"
+                android:textStyle="bold" />
+
+            <WebView
+                android:id="@+id/webView1"
+                android:layout_width="match_parent"
+                android:layout_height="989dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+
+            </WebView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Our Trainer"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/FitGuru"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/tonihorton" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Tony Horton"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/FitGuru"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Description :"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/FitGuru"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="- Master Fitness Trainer"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/FitGuru"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="- Speaker"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/FitGuru"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="- Motivator"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/FitGuru"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="295dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/jillian" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Jillian Michaels"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/FitGuru"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Description :"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/FitGuru"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="- Life Coach"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/FitGuru"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="- Personal Trainer"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/FitGuru"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="- Wellness Consultant"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/FitGuru"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

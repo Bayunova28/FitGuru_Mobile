@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditFood">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDIT FOOD"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Food Name" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/poppinsmedium"
+            android:inputType="textPersonName"
+            android:hint="Input Food Name" />
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_height="wrap_content"
+            android:text="Food Description" />
+
+        <EditText
+            android:id="@+id/editDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Input Food Description" />
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_height="wrap_content"
+            android:text="Food Calories" />
+
+        <EditText
+            android:id="@+id/editCalories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:ems="10"
+            android:hint="Input Food Calories"
+            android:inputType="numberSigned|number|numberDecimal" />
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/radius_button"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="#FFFFFF"
+                android:text="Reset" />
+
+            <Button
+                android:id="@+id/btnSimpan"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/radius_button_update"
+                android:layout_weight="1"
+                android:text="Update" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
