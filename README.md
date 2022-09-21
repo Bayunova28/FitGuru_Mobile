@@ -1,4 +1,4 @@
-# FitGuru Mobile Application
+# FitGuru Mobile
 
 ## Table of Contents
 * [Background](#background)
